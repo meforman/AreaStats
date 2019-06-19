@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LocationDataActivity">
+
+<LinearLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+
+    <TextView
+        android:id="@+id/location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Altamonte Springs - Florida"
+        android:textAlignment="center"
+        android:textSize="24sp"/>
+
+    <TextView
+        android:id="@+id/population"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/population"
+        android:textAlignment="center"
+        android:textSize="20sp"/>
+
+    <!--GENERAL POPULATION TEXT VIEWS ////////////////////////////////////////////////////////// -->
+
+    <TextView
+        android:id="@+id/generalPopulation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/general_population"
+        android:textAlignment="viewStart"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:paddingTop="25dp"/>
+
+    <TextView
+        android:id="@+id/generalPopulation_UnemploymentRate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/unemployment_rate"
+        android:textAlignment="viewStart"
+        android:textSize="16sp"
+        android:paddingTop="5dp"/>
+
+    <TextView
+        android:id="@+id/generalPopulation_MaleToFemaleRatio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/male_to_female_ratio"
+        android:textAlignment="viewStart"
+        android:textSize="16sp"
+        android:paddingTop="5dp"/>
+
+    <TextView
+        android:id="@+id/generalPopulation_BelowPovertyLevel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/below_poverty_level"
+        android:textAlignment="viewStart"
+        android:textSize="16sp"
+        android:paddingTop="5dp"/>
+
+    <TextView
+        android:id="@+id/generalPopulation_NonEnglishSpeakers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/non_english_speakers"
+        android:textAlignment="viewStart"
+        android:textSize="16sp"
+        android:paddingTop="5dp"/>
+
+    <TextView
+        android:id="@+id/generalPopulation_Veterans"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/veterans"
+        android:textAlignment="viewStart"
+        android:textSize="16sp"
+        android:paddingTop="5dp"/>
+
+    <TextView
+        android:id="@+id/generalPopulation_BabiesBornPastYear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/babies_born_past_year"
+        android:textAlignment="viewStart"
+        android:textSize="16sp"
+        android:paddingTop="5dp"/>
+
+    <TextView
+        android:id="@+id/generalPopulation_WithHealthInsurance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/with_health_insurance"
+        android:textAlignment="viewStart"
+        android:textSize="16sp"
+        android:paddingTop="5dp"/>
+
+    <!--HOUSING TEXT VIEWS ///////////////////////////////////////////////////////////////////// -->
+
+    <TextView
+        android:id="@+id/housing"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/housing"
+        android:textAlignment="viewStart"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:paddingTop="25dp"/>
+
+    <TextView
+        android:id="@+id/housing_MedianHomePrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/median_home_price"
+        android:textAlignment="viewStart"
+        android:textSize="16sp"
+        android:paddingTop="5dp"/>
+
+    <TextView
+        android:id="@+id/housing_AverageHouseholdIncome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/average_household_income"
+        android:textAlignment="viewStart"
+        android:textSize="16sp"
+        android:paddingTop="5dp"/>
+
+    <TextView
+        android:id="@+id/housing_TotalHomes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/total_homes"
+        android:textAlignment="viewStart"
+        android:textSize="16sp"
+        android:paddingTop="5dp"/>
+
+    <TextView
+        android:id="@+id/housing_VacantHomes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/vacant_homes"
+        android:textAlignment="viewStart"
+        android:textSize="16sp"
+        android:paddingTop="5dp"/>
+
+    <!--EDUCATION TEXT VIEWS /////////////////////////////////////////////////////////////////// -->
+
+    <TextView
+        android:id="@+id/education"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/education"
+        android:textAlignment="viewStart"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:paddingTop="25dp"/>
+
+    <TextView
+        android:id="@+id/education_ElementaryAndMiddleSchool"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/in_elementary_middle_school"
+        android:textAlignment="viewStart"
+        android:textSize="16sp"
+        android:paddingTop="5dp"/>
+
+    <TextView
+        android:id="@+id/education_HighSchool"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/in_highschool"
+        android:textAlignment="viewStart"
+        android:textSize="16sp"
+        android:paddingTop="5dp"/>
+
+    <TextView
+        android:id="@+id/education_College"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/in_college"
+        android:textAlignment="viewStart"
+        android:textSize="16sp"
+        android:paddingTop="5dp"/>
+
+    <TextView
+        android:id="@+id/education_HighSchoolDropout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/high_school_dropout"
+        android:textAlignment="viewStart"
+        android:textSize="16sp"
+        android:paddingTop="5dp"/>
+
+    <TextView
+        android:id="@+id/education_WithAssociateDegree"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/with_associate_degree"
+        android:textAlignment="viewStart"
+        android:textSize="16sp"
+        android:paddingTop="5dp"/>
+
+    <TextView
+        android:id="@+id/education_WithBachelorsDegree"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/with_bachelors_degree"
+        android:textAlignment="viewStart"
+        android:textSize="16sp"
+        android:paddingTop="5dp"/>
+
+    <!--AGE TEXT VIEWS ///////////////////////////////////////////////////////////////////////// -->
+
+    <TextView
+        android:id="@+id/age"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/age"
+        android:textAlignment="viewStart"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:paddingTop="25dp"/>
+
+    <TextView
+        android:id="@+id/age_MedianAge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/median_age"
+        android:textAlignment="viewStart"
+        android:textSize="16sp"
+        android:paddingTop="5dp"/>
+
+    <TextView
+        android:id="@+id/age_Under18"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/under_age_18"
+        android:textAlignment="viewStart"
+        android:textSize="16sp"
+        android:paddingTop="5dp"/>
+
+    <TextView
+        android:id="@+id/age_UnderAge5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/under_age_5"
+        android:textAlignment="viewStart"
+        android:textSize="16sp"
+        android:paddingTop="20dp"/>
+
+    <TextView
+        android:id="@+id/age_5to9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ages_5_9"
+        android:textAlignment="viewStart"
+        android:textSize="16sp"
+        android:paddingTop="5dp"/>
+
+    <TextView
+        android:id="@+id/age_10to14"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ages_10_14"
+        android:textAlignment="viewStart"
+        android:textSize="16sp"
+        android:paddingTop="5dp"/>
+
+    <TextView
+        android:id="@+id/age_15to19"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ages_15_19"
+        android:textAlignment="viewStart"
+        android:textSize="16sp"
+        android:paddingTop="5dp"/>
+
+    <TextView
+        android:id="@+id/age_20to24"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ages_20_24"
+        android:textAlignment="viewStart"
+        android:textSize="16sp"
+        android:paddingTop="5dp"/>
+
+    <TextView
+        android:id="@+id/age_25to34"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ages_25_34"
+        android:textAlignment="viewStart"
+        android:textSize="16sp"
+        android:paddingTop="5dp"/>
+
+    <TextView
+        android:id="@+id/age_35to44"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ages_35_44"
+        android:textAlignment="viewStart"
+        android:textSize="16sp"
+        android:paddingTop="5dp"/>
+
+    <TextView
+        android:id="@+id/age_45to54"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ages_45_54"
+        android:textAlignment="viewStart"
+        android:textSize="16sp"
+        android:paddingTop="5dp"/>
+
+    <TextView
+        android:id="@+id/age_55to59"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ages_55_59"
+        android:textAlignment="viewStart"
+        android:textSize="16sp"
+        android:paddingTop="5dp"/>
+
+    <TextView
+        android:id="@+id/age_60to64"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ages_60_64"
+        android:textAlignment="viewStart"
+        android:textSize="16sp"
+        android:paddingTop="5dp"/>
+
+    <TextView
+        android:id="@+id/age_65to74"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ages_65_74"
+        android:textAlignment="viewStart"
+        android:textSize="16sp"
+        android:paddingTop="5dp"/>
+
+    <TextView
+        android:id="@+id/age_75to84"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ages_75_84"
+        android:textAlignment="viewStart"
+        android:textSize="16sp"
+        android:paddingTop="5dp"/>
+
+    <TextView
+        android:id="@+id/age_OverAge85"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/over_age_85"
+        android:textAlignment="viewStart"
+        android:textSize="16sp"
+        android:paddingTop="5dp"/>
+
+</LinearLayout>
+</ScrollView>
